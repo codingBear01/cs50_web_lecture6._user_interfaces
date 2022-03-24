@@ -7,6 +7,7 @@ from django.shortcuts import render
 def index(request):
     return render(request, "posts/index.html")
 
+
 def posts(request):
 
     # Get start and end points
@@ -22,6 +23,4 @@ def posts(request):
     time.sleep(1)
 
     # Return list of posts
-    return JsonResponse({
-        "posts": data
-    })
+    return JsonResponse({"posts": data})
