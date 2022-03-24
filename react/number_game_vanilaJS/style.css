@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.number_box {
+  font-size: 54px;
+}
+
+.incorrect {
+  color: red;
+}
+
+.inactive {
+  display: none;
+}
+
+.win_message {
+  color: blue;
+}
+
+.lose_message {
+  color: red;
+}
